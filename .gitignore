@@ -1,0 +1,19 @@
+node_modules/**/*
+.expo/*
+npm-debug.*
+package-lock.json
+
+# dev
+*.dev.*
+*.notes.*
+/dev
+/notes
+
+# ide
+.idea
+/idea
+*.idea
+
+# flow
+/flow-typed
+*/flow-typed
