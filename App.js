@@ -8,7 +8,7 @@ type Props = {};
 export default class App extends Component<Props> {
   render() {
     return (
-      <View style={styles.container}>
+      <View>
         <EventList/>
       </View>
     );
@@ -17,7 +17,8 @@ export default class App extends Component<Props> {
 
 const styles = StyleSheet.create({
   container: {
-    marginTop: '5.5%',
+    flex: 0,
+    // marginTop: '5.5%',
     // marginTop: 22,
     // flex: 1,
     backgroundColor: '#8a8a8a',

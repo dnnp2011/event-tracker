@@ -29,9 +29,9 @@ export default class EventList extends Component<Props, State>
 
   render() {
     return (
-      <View >
+      <View>
         <FlatList
-          contentContainerStyle={styles.EventList}
+          style={styles.EventList}
           data={ this.state.events }
           renderItem={ ({ item }) => <EventCard event={ item } /> }
           keyExtractor={ item => item.id }
@@ -43,6 +43,18 @@ export default class EventList extends Component<Props, State>
 
 const styles = StyleSheet.create({
   EventList : {
-
+    // position: 'absolute',
+    flex: 1,
+    // justifyContent: 'center',
+    // direction: 'column',
+    // width: '100%',
+    // flex: 1,
+    // justifyContent: 'center',
+    // zIndex: -1,
+    // width: '100vw',
+    // height: '100vh',
+    paddingTop: 20,
+    paddingBottom: 10,
+    backgroundColor: '#ececec',
   },
 });

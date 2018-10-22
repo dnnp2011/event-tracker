@@ -54,8 +54,11 @@ const EventCard = ({ event }: Object) => {
 
 const styles = StyleSheet.create({
   card : {
+
     flex: 1,
-    backgroundColor: '#fff',
+    width: '100%',
+    // height: '200dp',
+    backgroundColor: '#aeaeae',
     padding: 10,
     paddingTop: 10,
     paddingBottom: 20,
@@ -82,16 +85,26 @@ const styles = StyleSheet.create({
     textAlign: 'left',
   },
   counterContainer : {
-
+    flex: 1,
+    flexDirection: 'row',
+    justifyContent: 'space-between',
+    paddingLeft: '5%',
+    paddingRight: '5%',
   },
   counter : {
-
+    width: '25%',
+    flex: 1,
   },
   counterText : {
-
+    fontSize: 48,
+    textAlign: 'center',
   },
   counterLabel :  {
-
+    fontSize: 13,
+    fontWeight: '100',
+    color: '#a3a3a3',
+    textAlign: 'center',
+    paddingTop: 0,
   },
 });
 
