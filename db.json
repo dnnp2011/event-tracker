@@ -1,0 +1,25 @@
+{
+  "events": [
+    {
+      "title": "Release RN course",
+      "date": "2018-11-15T00:00:00.000Z",
+      "id": "05dafc66-bd91-43a0-a752-4dc40f039144"
+    },{
+      "title": "Demo a new app",
+      "date": "2018-10-29T13:45:18.000Z",
+      "id": "jk834fva-47hk-233g-a944-klia08fhuert"
+    },{
+      "title": "Go on holiday",
+      "date": "2018-11-18T08:09:24.000Z",
+      "id": "8fklkujh-34d8-jawt-0iuy-28aguytren84"
+    },{
+      "title": "Return from holiday",
+      "date": "2018-11-25T10:09:24.000Z",
+      "id": "hahj9840-njkm-fgtr-erdf-39sa7ka74ids"
+    },{
+      "title": "Start new job",
+      "date": "2018-12-01T08:00:00.000Z",
+      "id": "5783qhsg-taqh-4y7w-azh4-sdm54wqjeder"
+    }
+  ]
+}
